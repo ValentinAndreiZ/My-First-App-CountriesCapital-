@@ -1,0 +1,41 @@
+* {
+   
+}
+
+html {
+    height: 100%;
+    
+}
+
+body{
+    height: 100%;
+    
+}
+
+#instructions-div {
+    display: none;
+    width: 10%;
+}
+
+#next-button {
+    margin-bottom: 10%;
+}
+
+#country-choices {
+    text-align: center;
+}
+
+#summary{
+    height: 30px;;
+   
+}
+
+/* .btn {
+    width: 20%;
+    height: 10%; 
+    
+} */
+
+/* #content {
+    background: #F5F5F5;
+} */

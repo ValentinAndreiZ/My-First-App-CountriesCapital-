@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <script src="https://kit.fontawesome.com/ce06a6f7a3.js"></script>
+    <link href="/styles/styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+
+<header>
+    <div class="jumbotron-fluid bg-primary my-0">
+        <div id="intro" class="text-center text-primary my-0 p-3 ">
+            <h1 class="text-light ">The Capitals Learning App</h1>
+            <h6 class="text-dark">Learn the capitals in a fun and easy way!</h6>
+        </div>
+
+    </div>
+</header>
+
+
+<body>
+
+    <div id="content" class="container-fluid text-center">
+
+        <!-- <div class="jumbotron "> -->
+        <div class="row">
+
+            <div class="col-0 col-md-2">
+
+
+            </div>
+
+            <div class="col-12 col-md-8">
+
+                <nav class="navbar d-flex justify-content-center pt-3 " id="select-region">
+                    <form class=" w-100">
+
+                        <button id="b1" type="button" name="options"
+                            class="btn btn-sm btn-md-lg btn-outline-dark my-3 shadow text-wrap text-center btn-block d-block d-md-inline w-25 mx-auto mx-md-4"
+                            active><i class="fas fa-globe-americas d-none d-sm-inline"></i> Americas</button>
+                        <button id="b2" type="button" name="options"
+                            class="btn btn-sm btn-md-lg btn-outline-dark my-3 shadow  text-wrap text-center btn-block d-block d-md-inline w-25 mx-auto mx-md-4"><i
+                                class="fas fa-globe-africa d-none d-sm-inline"></i> Africa</button>
+                        <!-- <button class="btn btn-lg btn-outline-dark mr-5">Antarctic</button> -->
+                        <button id="b3" type="button" name="options"
+                            class="btn btn-sm btn-md-lg btn-outline-dark my-3 shadow text-wrap text-center btn-block d-block d-md-inline w-25 mx-auto mx-md-4"><i
+                                class="fas fa-globe-asia d-none d-sm-inline"></i> Asia</button>
+                        <button id="b4" type="button" name="options"
+                            class="btn btn-sm btn-md-lg btn-outline-dark my-3 shadow text-wrap text-center btn-block d-block d-md-inline w-25 mx-auto mx-md-4"><i
+                                class="fas fa-globe-europe d-none d-sm-inline"></i> Europe</button>
+                        <button id="b5" type="button" name="options"
+                            class="btn btn-sm btn-md-lg btn-outline-dark my-3 shadow text-wrap text-center btn-block d-block d-md-inline w-25 mx-auto mx-md-4"><i
+                                class="fas fa-globe-americas d-none d-sm-inline"></i> Oceania</button>
+                    </form>
+
+                </nav>
+
+
+                <div id="gameItself">
+
+                    <div id="country-choices">
+
+                        <p id="country" class="mt-0 mt-md-5 ">Select a region</p>
+
+                        <div id="choices" class="mt-2 mt-md-5 d-flex justify-content-center">
+                            <button type="button" class="btns btn-light btn-lg mr-3 shadow badge text-wrap"
+                                id="btn1">?</button>
+                            <button type="button" class="btns btn-light btn-lg mr-3 shadow badge text-wrap"
+                                id="btn2">?</button>
+                            <button type="button" class="btns btn-light btn-lg mr-3 shadow badge text-wrap"
+                                id="btn3">?</button>
+                            <button type="button" class="btns btn-light btn-lg mr-3 shadow badge text-wrap"
+                                id="btn4">?</button>
+                        </div>
+
+                    </div>
+
+                    <!-- <br>
+                            <br> -->
+                    <div id="next-button" class="mt-5 p-0 p-md-5 text-center">
+                        <button id="next"
+                            class="btn btn-sm btn-md-lg btn-outline-dark text-primary shadow-lg p-3 badge text-wrap rounded-pill">Next
+                            country</button>
+                    </div>
+
+                    <div id="summary" class="my-3 text-center">
+                        <small>Test your knowledge!</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-0 col-md-2">
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+<div class="container-fluid m-0 p-0">
+    <footer>
+        <div id="footer">
+
+        </div>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="/scripts/app.js"></script>
+<script src="/scripts/requests.js"></script>
+
+</html>
